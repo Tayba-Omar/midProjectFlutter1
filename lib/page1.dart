@@ -54,7 +54,7 @@ class _StartState extends State<Start> {
                   children: [
                     ElevatedButton(
                       onPressed: (){
-                        Navigator.of(context).push(MaterialPageRoute(builder: (_)=>page2() ));
+                        Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>page2() ));
                       }, child:
                     Text("star",style: TextStyle(
                         color: Color(0xFFAED3F1,),fontSize: 20

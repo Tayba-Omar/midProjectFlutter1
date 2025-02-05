@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:midproject/page1.dart';
+import 'package:midproject/page3.dart';
 class page2 extends StatefulWidget {
   const page2({super.key});
 
@@ -66,7 +67,7 @@ class _page2State extends State<page2> {
 
                       ElevatedButton(
                         onPressed: (){
-                          Navigator.of(context).push(MaterialPageRoute(builder: (_)=>Start() ));
+                          Navigator.of(context).push(MaterialPageRoute(builder: (_)=>page3() ));
                         }, child:
                       Text("next",style: TextStyle(
                           color: Color(0xFFAED3F1,),fontSize: 20
